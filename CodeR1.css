@@ -1,7 +1,21 @@
+/* Change font to Helvetica & new BG colour */
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #D3D3D3;
+}
+
 /* Top Logo and text */
 .topbox {
 	background-color: #DE5254;
-	margin: 20px;
+	margin: 20px 20px 0px 20px;
+	height: 125px;
+	padding: 20px;
+}
+
+.headtext {
+	padding: 20px;
+	vertical-align: middle;
+	color: white;
 }
 
 header img {
@@ -12,17 +26,89 @@ header img {
 	position: relative;
 	padding-top: 15px;
 	padding-left: 10px;
+	font-size: 20px
 }
 
 /* Navigation/Menu */
+.navbar {
+	background-color: #868686;
+	margin: 0px 20px 1px 20px;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
-
+	padding: 5px;
 } 
 
-/* Images */
-.firstpic {
-	
+.navbar li {
+	display: inline;
 }
+
+.navbar a {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+/* Styles nav links according to selection/hover */
+.navbar a:hover {
+	text-decoration: underline;
+	background-color: #DE5254;
+}
+
+/*irrelevant as no real links exist 
+.navbar a:active {
+	text-decoration: underline;
+} */
+
+/* Images */
+.top {
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 50%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.top p {
+	text-align: center
+}
+
+.topimages {
+	display: inline-flex;
+}
+
+.bottom {
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 50%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.bottom p {
+	text-align: center;
+}
+
+.bottomimages {
+	display: inline-flex;
+}
+
+/* Footer */
+.footer {
+	text-align: center;
+	vertical-align: middle;
+	background-color: #DE5254;
+	height: 50px;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+
+
+
