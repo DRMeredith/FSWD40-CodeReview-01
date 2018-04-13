@@ -1,16 +1,28 @@
+/* Top Logo and text */
 .topbox {
 	background-color: #DE5254;
-	margin: 15px;
+	margin: 20px;
 }
 
 header img {
 	float: left;
-	width: 100px;
-
 }
 
 .headtext {
 	position: relative;
 	padding-top: 15px;
 	padding-left: 10px;
+}
+
+/* Navigation/Menu */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+} 
+
+/* Images */
+.firstpic {
+	
 }
